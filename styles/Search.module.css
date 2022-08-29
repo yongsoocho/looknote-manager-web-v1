@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.select {
+  border: none;
+  font-size: 15px;
+}
+
+.input {
+  width: 300px;
+  padding: 5px 5px;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  margin-left: 25px;
+}
+.input:focus {
+  outline: none;
+  border-bottom: 1.5px solid black;
+}

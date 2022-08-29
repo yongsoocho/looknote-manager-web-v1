@@ -1,0 +1,23 @@
+.container {
+  width: 100vw;
+  display: flex;
+}
+
+.content {
+  margin: auto auto;
+}
+
+.link {
+  margin-right: 40px;
+  color: rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.link:hover {
+  color: black;
+}
+
+.logout {
+  color: black;
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.board {
+  padding: 25px 25px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 302px);
+  grid-template-rows: repeat(auto-fit, 402px);
+  gap: 25px 25px;
+  justify-content: center;
+}

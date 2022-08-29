@@ -1,0 +1,52 @@
+.container {
+  width: 300px;
+  height: 450px;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid black;
+}
+
+.button_v {
+  position: absolute;
+  top: 5px;
+  right: 40px;
+  font-size: 25px;
+  color: white;
+  border-radius: 3px;
+  width: 35px;
+  height: 15px;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.button_d {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 25px;
+  color: white;
+  border-radius: 3px;
+  width: 25px;
+  height: 15px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.thumbnail {
+  width: 300px;
+  height: 360px;
+}
+
+.tag {
+  width: 300px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 3px 3px;
+}

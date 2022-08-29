@@ -1,0 +1,88 @@
+.content {
+  display: flex;
+}
+
+.form {
+  border: 2px solid black;
+  margin: 30px 30px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  position: relative;
+}
+.form::before {
+  content: "매니저 생성";
+  position: absolute;
+  background-color: white;
+  top: -13px;
+  padding: 5px 5px;
+}
+
+.text {
+  width: 300px;
+  margin-top: 50px;
+  border: none;
+  border-bottom: 1.5px solid grey;
+  padding: 5px 5px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.text:focus {
+  outline: none;
+  border-bottom: 1.5px solid black;
+}
+
+.btn {
+  width: 310px;
+  height: 40px;
+  border: none;
+  transition: 0.3s;
+  margin-top: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: white;
+  background-color: black;
+}
+
+.push {
+  border: 2px solid black;
+  margin: 30px 30px;
+  padding: 20px 20px;
+  width: 350px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  position: relative;
+}
+.push::before {
+  content: "푸쉬 보내기";
+  position: absolute;
+  background-color: white;
+  top: -13px;
+  padding: 5px 5px;
+}
+
+.update {
+  border: 2px solid black;
+  margin: 30px 30px;
+  padding: 20px 20px;
+  width: 350px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  position: relative;
+}
+.update::before {
+  content: "업데이트 쿼리";
+  position: absolute;
+  background-color: white;
+  top: -13px;
+  padding: 5px 5px;
+}

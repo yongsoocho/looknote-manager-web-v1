@@ -1,0 +1,27 @@
+.pagenation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.content {
+  width: 250px;
+  overflow: hidden;
+  position: relative;
+}
+.swiper {
+}
+
+.arrow {
+  font-size: 20px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.page {
+  margin: 0 10px;
+  cursor: pointer;
+}
